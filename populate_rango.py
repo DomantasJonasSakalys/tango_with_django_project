@@ -6,6 +6,8 @@ import django
 django.setup()
 from rango.models import Category, Page
 
+from random import randint
+
 def populate():
 # First, we will create lists of dictionaries containing the pages
 # we want to add into each category.
@@ -53,7 +55,7 @@ def populate():
 def add_page(cat, title, url, views=0):
 	p = Page.objects.get_or_create(category=cat, title=title)[0]
 	p.url=url
-	p.views=views
+	p.views=randint(0, 9)
 	p.save()
 	return p
 def add_cat(name):
