@@ -1,0 +1,16 @@
+echo 3!~!~!~!~!~!~!~!~!~!~!
+python manage.py test rango.tests_chapter3
+echo 4!~!~!~!~!~!~!~!~!~!~!
+python manage.py test rango.tests_chapter4
+echo 5!~!~!~!~!~!~!~!~!~!~!
+python manage.py test rango.tests_chapter5
+echo 6!~!~!~!~!~!~!~!~!~!~!
+python manage.py test rango.tests_chapter6
+echo 7!~!~!~!~!~!~!~!~!~!~!
+python manage.py test rango.tests_chapter7
+echo 8!~!~!~!~!~!~!~!~!~!~!
+python manage.py test rango.tests_chapter8
+echo 9!~!~!~!~!~!~!~!~!~!~!
+python manage.py test rango.tests_chapter9
+echo 10!~!~!~!~!~!~!~!~!~!~!
+python manage.py test rango.tests_chapter10
